@@ -9,6 +9,8 @@ import { MoviesComponent } from './pages/movies/movies/movies.component';
 import { MovieDetailsComponent } from './pages/movies/movies/movie-details/movie-details.component';
 import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
 import { MovieCoverComponent } from './shared/movie-cover/movie-cover.component';
+import { YearsComponent } from './pages/years/years/years.component';
+import { MoviesInYearComponent } from './pages/years/movies-in-year/movies-in-year.component';
 
 import { HttpClientModule } from '@angular/common/http';
 
@@ -20,7 +22,9 @@ import { HttpClientModule } from '@angular/common/http';
     MoviesComponent,
     MovieDetailsComponent,
     PageNotFoundComponent,
-    MovieCoverComponent
+    MovieCoverComponent,
+    YearsComponent,
+    MoviesInYearComponent
   ],
   imports: [
     BrowserModule,

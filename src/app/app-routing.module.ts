@@ -5,6 +5,7 @@ import { MoviesInCategoryComponent } from './pages/categories/categories/movies-
 import { MovieDetailsComponent } from './pages/movies/movies/movie-details/movie-details.component';
 import { MoviesComponent } from './pages/movies/movies/movies.component';
 import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
+import { YearsComponent } from './pages/years/years/years.component';
 
 const routes: Routes = [
   {path: '', redirectTo: '/movies', pathMatch: 'full'},
@@ -12,6 +13,7 @@ const routes: Routes = [
   {path: 'movie/:id', component: MovieDetailsComponent},
   {path: 'categories', component: CategoriesComponent},
   {path: 'category/:category', component: MoviesInCategoryComponent},
+  {path: 'years', component: YearsComponent},
   {path: '**', component: PageNotFoundComponent}//ta ścieżka powinna być na końcu, kolejność wczytywania od góry!
 ];
 
